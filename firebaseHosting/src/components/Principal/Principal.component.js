@@ -1,6 +1,10 @@
+import LoginRegistro from '@/components/LoginRegistro'
+
 export default {
   name: 'principal',
-  components: {}, 
+  components: {
+    "loginreg": LoginRegistro
+  },
   props: [],
   data () {
     return {
